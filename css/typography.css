@@ -1,0 +1,17 @@
+/*
+    font-size: font-family;
+*/
+/*
+body {
+    font-family: Helvetica;
+}
+h1 {
+    font-family: Verdana;
+}
+*/
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
