@@ -1,17 +1,28 @@
-/*
-    font-size: font-family;
-*/
-/*
+a {
+    font-style: 40px;
+    text-decoration: none;
+}
 body {
-    font-family: Helvetica;
+    text-transform: uppercase;
 }
 h1 {
-    font-family: Verdana;
+    text-transform: lowercase;
+    text-decoration: line-through;
 }
 */
 body {
     font-family: "Courier New", Courier, monospace;
 }
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.one {
+    line-height: 0.5em;
 }
+
+.two {
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+}
+.three {
+    word-spacing: 20px;
+    text-decoration: underline;
+} 
