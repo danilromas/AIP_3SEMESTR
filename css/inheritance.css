@@ -1,25 +1,12 @@
-
-
-body {
-    color: red;
+body{
     font-family: monospace;
     line-height: 1.5em;
 }
-
-div {
-    color: blue;
-    border: 3px solid black;
+div{
+  color:yellow;
+  border:3px solid black;
 }
 
-
-h2 {
-    color: green;
-}
-
-p {
-    color: red;
-}
-
-* {
-    color: blue;
+h2{
+  color:green;
 }

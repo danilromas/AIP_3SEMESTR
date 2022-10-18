@@ -1,28 +1,78 @@
-a {
-    font-style: 40px;
+body{
+    font-family:'Courier\ New', Courier, monospace
+  }
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  @import url(https://fonts.google.com/specimen/Roboto);
+  body{
+    font-family: "Roboto", sans-serif;
+  }
+  h1{
+    font-family: "Yesteryear", cursive;
+  }
+
+  /* font-weight
+     font-style */
+  body{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+  }
+  .main{
+    font-family: "Yesteryear", cursive;
+  }
+  .subheading{
+    font-style: normal;
+  }
+  .first{
+    font-weight: bold;
+    font-style: italic;
+  }
+  .second{
+    font-weight: lighter;
+    font-style: oblique;
+  }
+
+  body{
+    font-family: "Roboto", sans-serif;
+    /* text-align: right; */
+  }
+
+  .main{
+    font-family: "Yesteryear", cursive;
+    text-align: center;
+  }
+  .subheading{
+
+  }
+  .first{
+    text-indent: 10rem;
+  }
+  .second{
+    text-align: left;
+  }
+
+  a{
+    font-size: 40px;
     text-decoration: none;
 }
-body {
-    text-transform: uppercase;
+div{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
 }
-h1 {
-    text-transform: lowercase;
-    text-decoration: line-through;
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: lowercase;
+  text-decoration: line-through;
 }
-*
-body {
-    font-family: "Courier New", Courier, monospace;
+.one{
+  line-height: 0.5em;
 }
-.one {
-    line-height: 0.5em;
+.two{
 }
-
-.two {
-    letter-spacing: 5px;
-    text-decoration: overline;
-    line-height: 2rem;
+.three{
+  word-spacing: 20px;
+  text-decoration: underline;
 }
-.three {
-    word-spacing: 20px;
-    text-decoration: underline;
-} 
