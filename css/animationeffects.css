@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    font-family: 'Verdana';
+    text-transform: uppercase;
+}
+
+.one div{
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    color: aliceblue;
+    margin: 15px;
+    transition: all 1s ease-out;
+}
+
+.one div:hover{
+    transform: translateX(100px);
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+
+.two div{
+    width: 200px;
+    height: 100px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.tran{
+    background: darkblue;
+    transition: all 2s linear;
+}
+.tran:hover{
+    background: yellow;
+    transform: translateX(100px);
+}
+
+.animation2{
+    background: orange;
+    animation: firstmove 5s infinite;
+}
+
+@keyframes firstmove {
+    0% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(100px);
+        background: blue;
+    }
+    75%{
+        transform: translateX(-200px);
+        background: red;
+    }
+    100%{
+        transform: translateX(20px);
+        background: green;
+    }
+}
+
+.three div{
+    width: 200px;
+    height: 100px;
+    color: lemonchiffon;
+    margin: 10px;
+}
+
+.animation3{
+    background: orange;
+    animation: secondmove 5s 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes secondmove {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(40px);
+        opacity: 0.5;
+    }
+
+}

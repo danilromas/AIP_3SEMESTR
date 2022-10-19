@@ -1,0 +1,27 @@
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one {
+    background: red;
+    transform: translateY(60%);
+    /* and all of that kind of things */
+}
+.two {
+    background: green;
+    transform: rotateZ(34deg);
+}
+.three {
+    background: blue;
+    transition: all;
+    transform: skew(30deg);
+    transition-duration: 1.2s;
+    transition-delay: 0.3s;
+}
+
+.three:hover {
+    border-radius: 20%;
+    background: coral;
+}
